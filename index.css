@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    color: white;
+    background-color: gray;
+    border: solid 2px gray;
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+.lista-de-produtos{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.produto{
+    border: solid 2px gray;
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+.total{
+    background-color: #ebf2e9;
+    border: solid 2px gray;
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+.botao{
+    color:#ebf2e9;
+    background-color: #6c9061;
+    text-align: center;
+    width: 374px;
+    height: 40px;
+    border: none;
+}
+.botao:hover{
+    background-color: #abd19e;
+    color: black;
+}
